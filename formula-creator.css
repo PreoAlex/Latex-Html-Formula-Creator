@@ -1,6 +1,4 @@
 .math-container {
-
-    border: 1px solid black;
     margin-bottom: 20px;
 }
 
@@ -36,6 +34,8 @@
 }
 
 #latex-font-size {
+
+    cursor: pointer;
 
     font-family: monospace;
     font-size: 15px;
