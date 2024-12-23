@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formula-creator.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div style="font-size: 24px;" class="math-container">
+        $$ \int_{0}^{1}x^2dx $$
+    </div>
+
+    <div class="latex-input-container">
+
+        <select id="latex-font-size">
+            <option value="16px">16px</option>
+            <option selected value="24px">24px</option>
+            <option value="32px">32px</option>
+            <option value="40px">40px</option>
+        </select>
+        <textarea id="latex-input">\int_{0}^{1}x^2dx</textarea>
+        <button onclick="copyLatexHTML()" id="latex-copy-button">Copy HTML</button>
+
+    </div>
+
+    <script src="formula-creator.js"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+
+</html>

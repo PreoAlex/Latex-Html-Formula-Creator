@@ -1,0 +1,48 @@
+.math-container {
+
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.latex-input-container {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+
+    align-items: center;
+}
+
+#latex-input {
+
+    font-family: monospace;
+    font-size: 20px;
+
+    width: 500px;
+    height: 100px;
+
+    resize: none;   
+
+}
+
+#latex-copy-button {
+
+    font-family: monospace;
+    font-size: 20px;
+    cursor: pointer;
+    width: 100px;
+
+}
+
+#latex-font-size {
+
+    font-family: monospace;
+    font-size: 15px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+
+    border: 1px solid black;
+
+}
